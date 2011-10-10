@@ -3,7 +3,7 @@
 #ABC to interface with xgoogle library
 
 from abc import ABCMeta, abstractmethod, abstractproperty
-from xgoogle.search import GoogleSearch, SearchError
+from xgoogle.search import GoogleSearch #, SearchError
 
 class SearchBase:
     __metaclass__ = ABCMeta
